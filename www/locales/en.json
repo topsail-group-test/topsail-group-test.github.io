@@ -1,0 +1,127 @@
+{
+  "lang":"en"
+
+  ,"_comment": {
+     "1": "Prefixes"
+    ,"2": "(h)eader - <h2> content"
+    ,"3": "(p)aragraph - <p> content"
+    ,"4": "(l)ink - <a href> content"
+    ,"5": "(t)ext - several <p>"
+    ,"6": "(w)ords - part of <p> content"
+    ,"7": "alt - value alt attribute"
+  }
+
+  ,"nav": {
+     "Home": "Home"
+    ,"Benefits": "Benefits"
+    ,"Services": "Services"
+    ,"About": "About"
+    ,"Contacts": "Contacts"
+  }
+
+  ,"Header": {
+     "h":"Business<br>Intelligence"
+  }
+
+  ,"BI": {
+     "h":"What is Business Intelligence?"
+    ,"p": "Business Intelligence (BI) is a set of IT tools and techniques used by medium and large companies to monitor their business processes. Once established, BI infrastructure serves for many years, helping to make informed decisions, build long-term strategy, minimize redundant expenses, increase management efficiency.<br><br><i>Having BI is like having eyes to navigate through uncertainty.</i>"
+  }
+  ,"Slogans": {
+    "h":"What is it for?"
+   ,"hAnalyticsTypes":"The flavours of Analytics​"
+   ,"pSuccess": "Analyze your way to success"
+   ,"pTeam": "Connect your team"
+   ,"pInvestors": "Convince your investors"
+   ,"pSimple": "Make it simple"
+   ,"altEscalator": "Analytic Value Escalator. BI consists of 4 stages.<br>Descriptive Analitics - What happened?<br>Diagnostic Analytics - Why did it happen?<br>Predictive Analytics - What will happen?<br>Prescriptive Analytics - How can we make it happen?Each stage is more difficult to implement, but brings more value."
+  }
+  ,"Use": {
+     "h":"When companies use Business Intelligence?"
+    ,"p": "Most often companies realize a need for BI encountering some of the common issues. BI helps to identify hidden root problems behind such issues and provides a set of corresponding solutions."
+    
+    ,"thIssue": "Common issue"
+    ,"tdICosts": "How to lower our production costs?"
+    ,"tdISpeed": "How to accelerate our business process?"
+    ,"tdIReliability": "Can we make our business process reliable?"
+    ,"tdIQuality": "How to increase our product quality?"
+    ,"tdICompetitors": "Why do customers prefer our competitors?"
+    ,"tdIGoals": "How can we reach our long-term goals?"
+    ,"tdISecurity": "How to improve our data security?"
+
+    ,"thReason": "Potential reason"
+    ,"tdRCosts": "Untracked or non-obvious expenses"
+    ,"tdRSpeed": "Bottlenecks"
+    ,"tdRReliability": "Breaking production / delivery chains"
+    ,"tdRQuality": "Poor internal communication"
+    ,"tdRCompetitors": "Lack of market comprehension"
+    ,"tdRGoals": "Inconsistent reactions to market changes"
+    ,"tdRSecurity": "Divergent policies at multiple sources"
+
+    ,"thSolution": "BI solution"
+    ,"tdSCosts": "Multidimensional data analysis"
+    ,"tdSSpeed": "Near to real-time business process tracking"
+    ,"tdSReliability": "Automated risk detection"
+    ,"tdSQuality": "Easy-to-made interactive visual reports"
+    ,"tdSCompetitors": "Multiple-source data integration"
+    ,"tdSGoals": "Trend analysis with time intelligence functions"
+    ,"tdSSecurity": "Centralized data storage and access control"
+  }
+  ,"Benefits": {
+    "h":"How BI benefits companies?"
+    ,"hRevenue": "Expertise enhancement →&nbsp;Revenue&nbsp;growth"
+    ,"hPlanning": "Quick measures →&nbsp;Good&nbsp;planning"
+    ,"hConsolidation": "Easy sharing →&nbsp;Consolidation"
+    ,"tRevenue": "<p>The main advantage of Business Intelligence is that your employees will become more valuable assets to the company. Wasting less time on getting all crucial data together from different sources and worrying about the risk of making a mistake along the process, they will spend more time analyzing the information from top to bottom and communicating the result to their managers.</p><p>Integrated data model and intuitive easy-to-use interface requiring no special skills will drastically ease research of complex interconnections inside your business, revealing ineffective or missing processes, causes of potential bottlenecks, hidden risks and opportunities of your company. Your employees will solve business issues instead of technical issues, becoming profound experts of your business domain. And your management will obtain a constant supply chain of valuable insights via clear and meaningful business reports.</p>"
+    ,"tPlanning": "<p>Most companies measure their Key Performance Indicators, but most of them stop right there. While these metrics are important, they are often measured at the end of the year or quarter and are reactive in nature.</p><p>Opposed to this Business Intelligence tools allow you to monitor your state of affairs in real-time, gathering data from different sources and providing a high-resolution view of each individual business process via various intuitive visual components. Tracking changes on the flight will allow your company to dynamically respond to the changing environment.</p><p>At the same time, thanks to built-in relations of your data model, getting new measures and indexes via intuitive drag-n-drop interface will not require any specialized skills or additional technical support. Once BI infrastructure is there, the time between recognition of “we need to measure X” and getting the result may be reduced to several clicks. This will boost your business capability to discover ongoing trends in your business area by the first signs.</p>"
+    ,"tConsolidation": "<p>Efficient communication is a crucial point to any company’s long-term survival. Whether you are exchanging information with your colleagues from neighboring departments or answering to a board and investors about your startup needs and potential, BI tools will allow you to create a quick dashboard report, highlighting your key points through various visuals.</p><p>Cross platform solution will enable access to all information 24/7 from any device, including your mobile phone. Sophisticated performance enhancement techniques underneath BI instruments will ensure you responsive interactive interface despite enormous amounts of data presented in your reports. At the same time centralized data storage will ease implementing uniform security policy.</p><p>Conflicting stakeholder expectations as well as poor communication are often root causes of many problems occurring in a project. Expressive and easy-to-made BI reports may become the common ground for mutual understanding, accelerating exchange of meaningful ideas.</p>"
+  }
+  ,"Services": {
+     "h":"Our services"
+    ,"p": "If you need a BI solution designed specially for your company, check our services"
+    ,"hDevelopement": "Developement"
+    ,"pDevelopement": "Create new or improve<br>what you have"
+    ,"hConsultancy": "Consultancy"
+    ,"pConsultancy": "Tell us what you<br>want to know"
+    ,"hReporting": "Reporting"
+    ,"pReporting": "Automate your<br>report creation"
+    ,"hCleaning": "Data cleaning"
+    ,"pCleaning": "Get your data<br>ready for use"
+    ,"hAnalysis": "Data analysis"
+    ,"pAnalysis": "Obtain useful insights<br>from your data"
+    ,"hVisualization": "Visualization"
+    ,"pVisualization": "Let your data<br>talk to you"
+  }
+  ,"Customers": {
+     "h":"Who trusts us?"
+  }
+  ,"About": {
+     "h":"Who are we?"
+    ,"p": "TopSail Group is small BI consultancy company with a big attitude. Our customers are large international companies, that operate mostly on the European market. Our goal is to create the Business Intelligence solutions that maximize the use of customers' business potential.We have a team of skilled, certified and highly motivated professionals, with \"can do\" attitude. Our main goal is to help our customers in their constant success."
+  }
+  ,"Approach": {
+     "h":"How do we work?"
+    ,"p": "In Business Intelligence, the action is as much important as reaction. Therefore, we not only supply BI solutions. We ask. We challenge. We prototype. We ensure quality and high standards."
+  }
+  ,"NameMeaning": {
+     "h":"Why TopSail?"
+    ,"p": "It has always been important to utilize every momentum to ensure you can go faster, and stay ahead. The \"topsail\" is a small sail on the top of the mast, that helps even the biggest ships gain extra speed."
+  }
+  ,"Contacts": {
+     "h":"Get in touch"
+    ,"p": "Don't hesitate to cantact us"
+    ,"pAddress": "60-318 Darzciema Street, Riga,&nbsp;LV-1073,&nbsp;Latvia"
+  }
+  ,"Footer": {
+     "hTopSail": "TopSail Group"
+    ,"pTopSail": "We are a small BI consultancy company with a big attitude. Our goal is to create the Business Intelligence solutions that maximize the use of customers' business potential."
+    ,"hLinks": "Important Links"
+    ,"wFPA": "Our business partners", "lFPA": "FPA"
+    ,"wJobs": "Check out our", "lJobs": "Job opportunities"
+    ,"wTerms": "Read our", "lTerms": "Terms &amp; Conditions", "lPrivacy": "Privacy Policy"
+    ,"hMedia": "Social Media"
+    ,"wCopyright": "Copyright"
+  }
+
+
+}

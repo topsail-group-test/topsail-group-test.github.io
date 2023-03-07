@@ -1,0 +1,128 @@
+{
+  "lang":"lv"
+
+  ,"_comment": {
+     "1": "Prefixes"
+    ,"2": "(h)eader - <h2> content"
+    ,"3": "(p)aragraph - <p> content"
+    ,"4": "(l)ink - <a href> content"
+    ,"5": "(t)ext - several <p>"
+    ,"6": "(w)ords - part of <p> content"
+    ,"7": "alt - value alt attribute"
+  }
+
+  ,"nav": {
+     "Home": "Galvenā"
+    ,"Benefits": "Ieguvumi"
+    ,"Services": "Pakalpojumi"
+    ,"About": "Par mums"
+    ,"Contacts": "Kontakti"
+  }
+
+  ,"Header": {
+     "h":"Biznesa<br>Inteliģence"
+  }
+
+  ,"BI": {
+     "h":"Kas ir biznesa inteliģence?"
+    ,"p": "Biznesa inteliģence (BI) ir IT rīku un metožu kopums, ko vidējie un lielie uzņēmumi izmanto, lai uzraudzītu savus biznesa procesus. Kad BI infrastruktūra ir izveidota, tā kalpo daudzus gadus, palīdzot pieņemt pārdomātus lēmumus, veidot ilgtermiņa stratēģiju, samazināt liekos izdevumus, palielināt pārvaldības efektivitāti.<br><br><i>Uzņēmumam BI ir kā acis: tas palīdz orientēties nenoteiktībā.</i>"
+  }
+  ,"Slogans": {
+    "h":"Kam tas paredzēts?"
+    ,"hAnalyticsTypes":"The flavours of Analytics​"
+   ,"pSuccess": "Analizējiet savu ceļu uz panākumiem"
+   ,"pTeam": "Apvienojiet savu komandu"
+   ,"pInvestors": "Pārlieciniet savus investorus"
+   ,"pSimple": "Padariet to vienkāršu"
+   ,"altEscalator": "Analītiskās Vērtības Eskalators. BI sastāv no 4 posmiem.<br>Aprakstošā analīze — kas notika?<br>Diagnostiskā analīze — kāpēc tas notika?<br>Paredzošā analīze — kas notiks?<br>Preskriptīvā analīze — kā to panākt? Katru nākošo posmu ir grūtāk īstenot, taču tas sniedz lielāku vērtību."
+  }
+  ,"Use": {
+     "h": "Kad uzņēmumi izmanto biznesa informāciju?"
+    ,"p": "Visbiežāk uzņēmumi apzinās nepieciešamību pēc BI, saskaroties ar dažām bieži sastopamām problēmām. BI palīdz identificēt slēptās problēmas, kas slēpjas aiz šādām problēmām, un nodrošina atbilstošu risinājumu kopumu."
+    
+    ,"thIssue": "Bieža problēma"
+    ,"tdICosts": "Kā samazināt mūsu ražošanas izmaksas?"
+    ,"tdISpeed": "Kā paātrināt mūsu biznesa procesu?"
+    ,"tdIReliability": "Vai mēs varam padarīt mūsu biznesa procesu uzticamu?"
+    ,"tdIQuality": "Kā uzlabot mūsu produktu kvalitāti?"
+    ,"tdICoponents": "Kāpēc klienti dod priekšroku mūsu konkurentiem?"
+    ,"tdIGoals": "Kā mēs varam sasniegt savus ilgtermiņa mērķus?"
+    ,"tdISecurity": "Kā uzlabot mūsu datu drošību?"
+
+    ,"thReason": "Potenciālais iemesls"
+    ,"tdRCosts": "Neizsekoti vai nepārprotami izdevumi"
+    ,"tdRSpeed": "Procesu sastrēgumi"
+    ,"tdRReliability": "Ražošanas/piegādes ķēžu pārtraukšana"
+    ,"tdRQuality": "Slikta iekšējā komunikācija"
+    ,"tdRCcompetitors": "Tirgus izpratnes trūkums"
+    ,"tdRGoals": "Nekonsekventa reakcija uz tirgus izmaiņām"
+    ,"tdRSecurity": "Konfliktejošas drošības politikas"
+
+    ,"thSolution": "BI risinājums"
+    ,"tdSCosts": "Daudzdimensiju datu analīze"
+    ,"tdSSpeed": "Gandrīz reāllaika biznesa procesu izsekošana"
+    ,"tdSReliability": "Automatizēta riska noteikšana"
+    ,"tdSQuality": "Vienkārši veidojami interaktīvi vizuālie pārskati"
+    ,"tdSCompetitors": "Vairāku avotu datu integrācija"
+    ,"tdSGoals": "Tendences analīze ar laika izlūkošanas funkcijām"
+    ,"tdSSecurity": "Centralizēta datu glabāšana un piekļuves kontrole"
+  }
+  ,"Benefits": {
+    "h": "Kā BI dod labumu uzņēmumiem?"
+    ,"hRevenue": "Kvalifikācijas pieaugums →&nbsp;Ieņēmumu&nbsp;palielināšanā"
+    ,"hPlānošana": "Ātri rādītāji →&nbsp;Laba plānošana"
+    ,"hConsolidation": "Vienkārša kopīgošana →&nbsp;Konsolidācija"
+
+    ,"tRevenue": "<p>Biznesa inteliģences galvenā priekšrocība ir tā, ka jūsu darbinieki uzņēmumam kļūs vērtīgāki. Viņi tērēs mazāk laika apkopojot svarīgos datus no dažādiem avotiem un uztraucoties par kļūdu iespējamību. Tādēļ viņi pavadīs vairāk laika aptverošai analizei un paziņos rezultātus saviem vadītājiem.</p><p>Integrēts datu modelis un intuitīvs, viegli lietojams interfeiss, kam nav vajadzīgas īpašas prasmes, ievērojami atvieglos sarežģīto kopsakarību izpēti jūsu uzņēmuma darbībā, atklājot neefektīvus vai trūkstošus procesus, iespējamo vājo vietu cēloņus, gan jūsu uzņēmuma slēptos riskus, gan potenciālas iespējas. Jūsu darbinieki risinās biznesa jautājumus, nevis tehniskas problemas, kļūstot par prasmīgiem ekspertiem jūsu biznesa nozarē. Un jūsu vadība iegūs pastāvīgo vērtīgo ieskatu plūsmi caur skaidram un jēgpilnam biznesa pārskatem.</p>"
+    ,"tPlanning": "<p>Lielākā daļa uzņēmumu mēra savus galvenos veiktspējas rādītājus, taču lielākā daļa no tiem  tieši tur un apstājas. Lai gan šie rādītāji ir svarīgi, tie bieži tiek mērīti gada vai ceturkšņa beigās un pēc būtības ir reaģējoši.</p><p>Pretēji šim biznesa informācijas rīki ļauj pārraudzīt jūsu situāciju reāllaikā, apkopojot datus no dažādiem avotiem un nodrošinot augstas izšķirtspējas skatījumu uz katru atsevišķu biznesa procesu, izmantojot vairākus intuitīvus vizuālos komponentus. Savlaicga izmaiņu izsekošana ļaus jūsu uzņēmumam dinamiski reaģēt uz mainīgo vidi.</p><p>Tajā pašā laikā, pateicoties jūsu datu modeļa iebūvētajām attiecībām, jūs varēsiet ātri iegūt jaunus rādītājus. Intuitīvais velc-un-met interfeiss neprasa ne īpašas prasmes, ne papildu tehnisko atbalstu.Kad BI infrastruktūra ir izveidota, jūs vienmēr varat tikt no “mums jāizmēra X” līdz gatavam pārskatam ar dažiem klikšķiem. Tas uzlabos jūsu biznesa iespējas pēc pirmajām pazīmēm atklāt aktuālas tendences savā uzņēmējdarbības jomā.</p>"
+    ,"tConsolidation": "<p>Efektīva komunikācija ir būtiska jebkura uzņēmuma ilgtermiņa izdzīvošanai. Neatkarīgi no tā, vai apmaināties ar informāciju ar kolēģiem no blakus esošajiem departamentiem vai atbildat padomei un investoriem par savām vajadzībām un iespējam, BI rīki ļaus jums izveidot ātru pārskatu, izceļot galvenos punktus, atblastot to ar konkretiem cipariem.</p><p>Starpplatformu risinājums ļaus piekļūt vajādzīgai informācijai jebkurā laikā no jebkuras ierīces, tostarp no mobilā tālruņa. Izsmalcināti veiktspējas uzlabošanas paņēmieni nodrošinā BI instrumentiem atsaucīgo interaktīvo interfeisu, pat ja jūsu dati sniedz milzīgo apjomu. Tajā pašā laikā centralizēta datu glabāšana atvieglos vienotas drošības politikas ieviešanu.</p><p>Bieži vien pretrunīgas ieinteresēto pušu cerības, kā arī slikta komunikācija ir pamatcēloņi daudzām problēmām, kas rodas projektā. Izteiksmīgi un viegli izveidojami BI pārskates var kļūt par kopīgu pamatu savstarpējai izpratnei, paātrinot ideju apmaiņu.</p>"
+  }
+  ,"Services": {
+    "h":"Mūsu pakalpojumi"
+    ,"p": "Ja jūs meklējiet personalizēto BI risinājumu, pārbaudiet mūsu pakalpojumus"
+    ,"hDevelopement": "Attīstība"
+    ,"pDevelopement": "Izveidojiet jauno vai uzlabojiet<br>to, kas jums ir"
+    ,"hConsultancy": "Konsultācijas"
+    ,"pConsultancy": "Pastāstiet mums,<br>ko vēlaties uzzināt"
+    ,"hReporting": "Reporting"
+    ,"pReporting": "Automatizējiet<br>pārskata izveidi"
+    ,"hCleaning": "Datu tīrīšana"
+    ,"pCleaning": "Sagatavojiet savus datus<br>izmantošanai"
+    ,"hAnalysis": "Datu analīze"
+    ,"pAnalysis": "Iegūstiet noderīgus ieskatus<br>no saviem datiem"
+    ,"hVisualization": "Vizualizācija"
+    ,"pVisualization": "Ļaujiet jūsu datiem<br>sarunāties ar jums"
+  }
+  ,"Customers": {
+     "h":"Kurš mums uzticas?"
+  }
+  ,"About": {
+     "h":"Kas mēs esam?"
+    ,"p": "TopSail Group ir mazs konsultāciju uzņēmums ar iespaidīgo pieredzi BI jomā. Mūsu klienti ir lielie starptautiskie uzņēmumi, kas galvenokārt darbojas Eiropas tirgū. Mēs radam biznesa inteliģences risinājumus, kas maksimāli izmanto klientu biznesa potenciālu. Mums ir prasmīgu, sertificētu un augsti motivētu profesionāļu komanda ar \"varam visu\" attieksmi. Mūsu galvenais mērķis ir palīdzēt mūsu klientiem pastāvīgi gūt panākumus."
+  }
+  ,"Approach": {
+     "h":"Kā mēs strādājam?"
+    ,"p": "Biznesa inteliģencē komunikācija ir tikpat svarīga, ka ražošana. Tāpēc mēs ne tikai piegādājam BI risinājumus. Mēs precizējam. Mēs parbaudam. Mēs daram prototipus. Mēs nodrošinām kvalitāti un augstus standartus"
+  }
+  ,"NameMeaning": {
+     "h":"Kāpēc TopSail?"
+    ,"p": "Vienmēr ir bijis svarīgi izmantot katru impulsu, lai nodrošinātu, ka varat braukt ātrāk un būt priekšā. \"topsail\" ir maza bura masta augšpusē, kas palīdz pat lielākajiem kuģiem iegūt papildu ātrumu."
+  }
+  ,"Contacts": {
+     "h":"Sazināties"
+    ,"p": "Nevilcinieties sazināties ar mums"
+    ,"pAddress": "60-318 Dārzciema iela, Rīga,&nbsp;LV-1073,&nbsp;Latvija"
+  }
+  ,"Footer": {
+     "hTopSail": "TopSail Group"
+    ,"pTopSail": "Mēs esam mazs BI konsultāciju uzņēmums ar lielu attieksmi. Mūsu mērķis ir radīt biznesa inteliģences risinājumus, kas maksimāli izmanto klientu biznesa potenciālu."
+    ,"hLinks": "Svarīgas saites"
+    ,"wFPA": "Mūsu biznesa partneri", "lFPA": "FPA"
+    ,"wJobs": "Apskatiet mūsu", "lJobs": "Darba iespējas"
+    ,"wTerms": "Izlasiet mūsu", "lTerms": "Noteikumi un nosacījumi", "lPrivacy": "Privātuma politika"
+    ,"hMedia": "Sociālie mēdiji"
+    ,"wCopyright": "Autortiesības"
+  }
+
+
+}
