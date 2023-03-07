@@ -122,6 +122,98 @@
     ,"hMedia": "Social Media"
     ,"wCopyright": "Copyright"
   }
-
-
+  ,"btn": {
+    "Discover": "DISCOVER",
+    "More": "MORE",
+    "More2": "READ MORE"
+  }
+  ,"Opportunities": {
+    "breadcrumbs": {
+      "home": "Home",
+      "cur": "Job opportunities"
+    },
+    "Title": "Job Opportunities",
+    "Contact": "Please send your CV to",
+    "jobs": {
+      "job1": {
+        "Title": "Senior BI Developer/Analysts",
+        "Desc": "You are experienced, high skilled professional with good background in working with Analytical Applications, such as SSRS, SSAS, Power BI, Oracle BI. You are able to understand and implement complex analytical solutions – this includes ability to understand design of enterprise level architecture, think ahead for the possible extension of it and be able to spot possible points of improvement. Your level of technical skills enables you to see behind the lines of data. You have a will to learn, to be creative and to grow - this is what we expect.",
+        "More": {
+          "Expirience": {
+            "Title": "Required Experience/Skills:",
+            "List": "<li class = \"oblig\">5 or more years of experience in BI Industry</li><li class = \"oblig\">Advanced level of SQL</li><li class = \"oblig\">Knowledge of DWH architecture and ETL process</li><li class = \"oblig\">Good experience with analysis or reporting tools like Power BI, SSRS or Oracle BI</li><li class = \"oblig\">Knowledge of IT development processes and methodologies</li><li class = \"oblig\">Knowledge of Microsoft Azure</li><li class = \"oblig\">Customer focused, analytical skills, energetic and result driven</li><li class = \"oblig\">Communication on good level of either English, Russian or Latvian</li><li class = \"nonoblig\">Knowledge of statistical analysis and modelling is a plus</li><li class = \"nonoblig\">Experience with SQL performance tuning is a plus</li><li class = \"nonoblig\">Background in programming is a big plus</li><li class = \"nonoblig\">Team lead experience is a plus, but not required</li>"
+          },
+          "Mission": {
+            "Title": "Your mission:",
+            "Subtitle": "(should you choose to accept it)",
+            "Text": "Participate in the development of Business Intelligence oriented DWHs for large, well-known EU companies, operating with multiple branches on the European market. You would face the dangers of scattered data, question the requirements, and explore the depths of legacy solutions that no one can remember.<br>Your primary target would be new or significantly improved, high quality data warehouse, that would provide great analysis possibilities and clear, yet important KPIs and measures to end users."
+          },
+          "Offer": {
+            "Title": "We offer:",
+            "List": "<li>Salary starting from 2500 € brutto</li><li>Nice working environment</li><li>Friendly colleagues</li><li>Challenging projects</li><li>Nice bonuses</li><li>Respect (to some people that is more important ©)</li>"
+          }
+        }
+      },
+      "job2": {
+        "Title": "Middle BI Developer/Analysts",
+        "Desc": "The primary role of the BI developer is to take the design and technical specifications and develop effective and high quality technical solutions that meet the business requirements. The technical domain of the BI Developer includes logical and physical data modeling, data delivery best practices, tools and technologies, security in the data delivery environment, data delivery (application) development, performance tuning, and administration.",
+        "More": {
+          "Expirience": {
+            "Title": "Required Experience/Skills:",
+            "List": "<li class = \"oblig\">3 or more years of experience in BI Industry</li><li class = \"oblig\">Good level of SQL</li><li class = \"oblig\">Knowledge of DWH architecture and ETL process</li><li class = \"oblig\">Experience with analysis or reporting tools like Power BI, SSRS or Oracle BI</li><li class = \"oblig\">Knowledge of IT development processes and methodologies</li><li class = \"oblig\">Communication on good level of either English, Russian or Latvian</li><li class= \"oblig\">Creative and analytical thinker with strong problem-solving skills.</li><li class= \"oblig\">A will to learn, explore and acquire the new skills</li>"
+          },
+          "Offer": {
+            "Title": "We offer:",
+            "List": "<li>Salary starting from 2000 € brutto</li><li>Nice working environment</li><li>Friendly colleagues</li><li>Challenging projects</li><li>Nice bonuses</li><li>Respect (to some people that is more important ©)</li>"
+          }
+        }
+      },
+      "job3": {
+        "Title": "Business Intelligence Trainee",
+        "Desc": "Would you like to become the Business Intelligence Developer? There is an opportunity for you at TopSail Group! Acquire skills that would provide you with huge carrier opportunities in the modern world. Business Intelligence, Data Science, Machine learning and many cool and interesting technologies are in the great demand these days, and we invite you to join this respected club.",
+        "More": {
+          "Expirience": {
+            "Title": "To start with",
+            "Intro": "It would be great if you would have the following skillset:",
+            "List": "<li class = \"oblig\">A reasonable background in IT</li><li class = \"oblig\">Some basic understanding of software development routines</li><li class = \"oblig\">Basic knowledge of SQL</li><li class = \"oblig\">Some analytical and problem solving skills</li><li class = \"oblig\">Communication on good level of either English, Russian or Latvian</li><li class = \"oblig\">A will to learn, explore and acquire the new skills</li><li class= \"oblig\">A sense of humor ;)</li>",
+            "Outro": "It was once said - A journey of a thousand miles begins with a first step. We at the TopSail Group would like to offer you our guidance and experience along this journey. Once you have had some basic training, you will join our team in cool projects.<br><br> Feel like you are quite ready for this cool professional adventure?"
+          },
+          "Offer": {
+            "Title": "We offer:",
+            "List": "<li>Nice working environment</li><li>Friendly colleagues</li><li>Competitive salary</li><li>Challenging projects</li><li>Nice bonuses</li><li>Respect (to some people that is more important ©)</li>"
+          }
+        }
+      }
+    }
+  },
+  "Privacy":{
+    "Title":"Privacy Policy",
+    "breadcrumbs": {
+      "home": "Home",
+      "cur": "Privacy Policy"
+    },
+    "Content":{
+      "Title":"Private Data We Receive And Collect",
+      "Text":"TopSail Group also automatically collects and receives certain information from your computer or mobile device, including the activities you perform on our Website, the Platforms, and the Applications, the type of hardware and software you are using (for example, your operating system or browser), and information obtained from cookies. For example, each time you visit the Website or otherwise use the Services, we automatically collect your IP address, browser and device type, access times, the web page from which you came, the regions from which you navigate the web page, and the web page(s) you access (as applicable)."
+    }
+  },
+  "Terms":{
+    "Title":"Terms & Conditions",
+    "breadcrumbs": {
+      "home": "Home",
+      "cur": "Terms & Conditions"
+    },
+    "Content":{
+      "topic1":{
+        "Title":"Limitations Of Liability",
+        "Text1":"TopSail Group also automatically collects and receives certain information from your computer or mobile device, including the activities you perform on our Website, the Platforms, and the Applications, the type of hardware and software you are using (for example, your operating system or browser), and information obtained from cookies. For example, each time you visit the Website or otherwise use the Services, we automatically collect your IP address, browser and device type, access times, the web page from which you came, the regions from which you navigate the web page, and the web page(s) you access (as applicable)."
+      },"topic2":{
+        "Title":"Terms And Conditions",
+        "Text":"Under no circumstances shall TopSail Group be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if TopSail Group or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof."
+      },"topic3":{
+        "Title":"Designer Membership And How It Applies",
+        "Text":"By using any of the Services, or submitting or collecting any Personal Information via the Services, you consent to the collection, transfer, storage disclosure, and use of your Personal Information in the manner set out in this Privacy Policy. If you do not consent to the use of your Personal Information in these ways, please stop using the Services."
+      }
+    }
+  }
 }
