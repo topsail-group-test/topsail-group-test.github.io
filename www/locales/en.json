@@ -28,13 +28,11 @@
     ,"p": "Business Intelligence (BI) is a set of IT tools and techniques used by medium and large companies to monitor their business processes. Once established, BI infrastructure serves for many years, helping to make informed decisions, build long-term strategy, minimize redundant expenses, increase management efficiency.<br><br><i>Having BI is like having eyes to navigate through uncertainty.</i>"
   }
   ,"Slogans": {
-    "h":"What is it for?"
-   ,"hAnalyticsTypes":"The flavours of Analytics​"
-   ,"pSuccess": "Analyze your way to success"
-   ,"pTeam": "Connect your team"
-   ,"pInvestors": "Convince your investors"
-   ,"pSimple": "Make it simple"
-   ,"altEscalator": "Analytic Value Escalator. BI consists of 4 stages.<br>Descriptive Analitics - What happened?<br>Diagnostic Analytics - Why did it happen?<br>Predictive Analytics - What will happen?<br>Prescriptive Analytics - How can we make it happen?Each stage is more difficult to implement, but brings more value."
+    "h":"The flavours of Analytics"
+    ,"pAnalyticalType1": "<b>Descriptive analytics</b> is used to analyze past data sets for patterns and trends, helping businesses answer questions such as how much they sold and if they hit specific goals. "
+    ,"pAnalyticalType2": "<b>Diagnostic analytics</b> helps explain why things happened the way they did, going beyond what happened to why it happened. This type of analytics identifies trends or patterns in the past and then explains why they occurred the way they did."
+    ,"pAnalyticalType3": "<b>Predictive analytics</b> aims to predict likely outcomes and make educated forecasts using historical data, using probabilities for predictions instead of simply interpreting existing facts."
+    ,"pAnalyticalType4": "<b>Prescriptive analytics</b> uses data from various sources, including statistics, machine learning, and data mining, to identify possible future outcomes and show the best option. It provides actionable insights instead of raw data, enabling businesses to understand why certain outcomes will happen and predicting the effect of future decisions."
   }
   ,"Use": {
      "h":"When companies use Business Intelligence?"
@@ -74,9 +72,9 @@
     ,"hBenefit2": "Faster analysis and intuitive dashboards"
     ,"pBenefit2": "BI improves reporting efficiency by condensing reports into dashboards that are easy for non-technical users to analyze."
     ,"hBenefit3": "Increased competitive advantage"
-    ,"pBenefit3": "A sound BI strategy can help businesses monitor their changing market and anticipate customer needs."
+    ,"pBenefit3": "A solid BI strategy can help businesses monitor their changing market and anticipate customer needs."
     ,"hBenefit4": "Improved customer experience"
-    ,"pBenefit4": "Ready access to data can help employees charged with customer satisfaction provide better experiences."
+    ,"pBenefit4": "Ready access to data can help those responsible for customer satisfaction improve the quality of service."
     ,"hBenefit5": "Improved employee satisfaction"
     ,"pBenefit5": "Providing business users access to data without having to contact analysts or IT can reduce friction, increase productivity, and facilitate faster results."
     ,"hBenefit6": "Trusted and governed data"

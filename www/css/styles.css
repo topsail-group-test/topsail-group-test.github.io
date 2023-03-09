@@ -99,11 +99,6 @@ Colors:
 	background-color: #f7f7f773;
 }
 
-.swiper-slide img{
-	filter: grayscale(0%);
-	height: 1.5rem;
-	width: auto;
-}
 .img-tech{
 	width: 10rem;
 }
