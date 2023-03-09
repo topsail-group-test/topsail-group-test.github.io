@@ -97,6 +97,48 @@ h6 {
     margin: 1.2rem;
 }
 
+.dark-blue-area {
+	background-color: rgba(0, 0, 50, 0.6);
+  color: white;
+  padding: 1.2rem;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(131, 131, 131, 0.6);
+}
+
+.dark-blue-element {
+  background-color: rgba(0, 0, 50, 0.6);
+  color: white;
+  padding: 1.2rem;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(145, 145, 145);
+  margin: 0;
+}
+
+
+.wrapper{
+  position: relative;
+  padding: 0;
+}
+
+.content{
+  color: #FFFFFF;
+  position: relative;
+  z-index: 100;
+}
+
+.bg-dark-blue-shadow-right{
+  background-color: rgba(0, 0, 50, 0.6);
+  position: absolute;
+  top: 0;
+  left: 30%;
+  width: 70%;
+  height: 100%;
+}
+
 .img-figure {
   max-width: 200px;
   height: auto;
@@ -207,6 +249,7 @@ h6 {
 @media (max-width: 575px) {
     header .container {
         padding-left: 0;
+        padding-right: 0;
     }
 
 
@@ -221,21 +264,32 @@ th {
   vertical-align: middle;
 }
 
-.carousel {
-	background-color: white;
-	width: 100vw;
-	height: 15vh;
+.carousel-control-prev, .carousel-control-next{
+  width: fit-content;
+  height: fit-content;
 }
 
-.carousel-indicators,
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(50%);
+.carousel-control-next {
+  left: 0;
 }
+
+.carousel-control-prev {
+  right: 0;
+}
+
+.carousel {
+ width: 100%;
+ height: fit-content;
+}
+
+.large {
+  width: 100%;
+  height: 80vh;
+}
+
 
 .carousel-indicators {
-    margin: 0px;
-    height: 0px;
+    position: static;
 }
 
 .carousel-item {
