@@ -237,9 +237,9 @@
 
  ,"Report": {
   "h":"Report Examples"
- ,"p1": "Report example 1"
- ,"p2": "Report example 2"
- ,"p3": "Report example 3"
+ ,"p1": "Report Example 1"
+ ,"p2": "Tabular Model Analysis"
+ ,"p3": "Basket Analysis"
 }
 
 ,"Analysis": {
@@ -260,9 +260,9 @@
  ,"wDataManagement":"Master data management (MDM)"
  ,"wPipelines":"ETL/ELT (Extract, Transform, Load data) piplines"
  ,"wIntegration":"Data integration"
- ,"p1": "Solution example 1"
- ,"p2": "Solution example 2"
- ,"p3": "Solution example 3"
+ ,"p1": "Google Analytics"
+ ,"p2": "SSIS pipeline"
+ ,"p3": "ETL: Infromatica mapping"
 }
 
 ,"Cleaning": {

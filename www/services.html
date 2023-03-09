@@ -92,8 +92,8 @@
 
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Home" data-t>nav.Visualization</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Analysis" data-t>nav.Analysis</a></li>
-                <li class="nav-item"><a class="nav-link page-scroll" href="#Solutions" data-t>nav.Solutions</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Cleaning" data-t>nav.Cleaning</a></li>
+                <li class="nav-item"><a class="nav-link page-scroll" href="#Solutions" data-t>nav.Solutions</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Consultancy" data-t>nav.Consultancy</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Contacts" data-t>nav.Contacts</a></li>
                 <li>
@@ -130,7 +130,7 @@
     </header>
 
     
-    <section class="container light-section pt-0">
+    <section class="container light-section">
 
         <div class="sub-section" id="Visualization">
             <h2 data-t>Visualization.h</h2>
@@ -139,7 +139,7 @@
             <!-- Tabs -->
 
 	        <div class="container">
-	        	<div class="row">
+	        	<div class="row pt-3">
 	        		<div class="col-xs-12 ">
 	        			<nav>
 	        				<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
@@ -149,10 +149,10 @@
 	        			</nav>
 	        			<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
 	        				<div class="tab-pane fade show active" id="nav-charts1" role="tabpanel" aria-labelledby="nav-home-tab">
-	        					<img class="img-fluid d-block m-auto p-0 p-md-5" src="img/examples/charts1.png" ></img>
+	        					<img class="img-fluid d-block m-auto p-0 p-md-5 pb-md-0" src="img/examples/charts1.png" ></img>
 	        				</div>
 	        				<div class="tab-pane fade" id="nav-charts2" role="tabpanel" aria-labelledby="nav-profile-tab">
-	        					<img class="img-fluid d-block m-auto p-0 p-md-5" src="img/examples/charts2.png" ></img>
+	        					<img class="img-fluid d-block m-auto p-0 p-md-5 pb-md-0" src="img/examples/charts2.png" ></img>
 	        				</div>
 	        			</div>
 	        		</div>
@@ -190,18 +190,14 @@
                             <div id="report-carousel" class="carousel slide w-100" height="80vh" data-interval="false">
 
                                 <!-- The slideshow -->
-                                <div class="carousel-inner large">
-                                  <div class="carousel-item active large">
-                                    <p data-t>Report.p1</p>
-                                    <iframe class="large" title="Report Section" src="https://app.powerbi.com/view?r=eyJrIjoiMmY1YTE5NzAtY2M4MS00OWJiLTk2NTItZGQzZWNlYWQzZTU3IiwidCI6Ijk2NmM1NmFkLTNmZjYtNDk3Yi04ZTNkLTkxZmE3OGJhZTRhNCIsImMiOjl9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
-                                  </div>
-                                  <div class="carousel-item large">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
                                     <p data-t>Report.p2</p>
-                                    <iframe class="large" title="Report Section" src="https://app.powerbi.com/view?r=eyJrIjoiMmY1YTE5NzAtY2M4MS00OWJiLTk2NTItZGQzZWNlYWQzZTU3IiwidCI6Ijk2NmM1NmFkLTNmZjYtNDk3Yi04ZTNkLTkxZmE3OGJhZTRhNCIsImMiOjl9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+                                    <iframe class="large" title="Report Section" src="https://app.powerbi.com/view?r=eyJrIjoiNjliZWRjNjYtYzM3Yi00NjAyLWI2NmUtMjliY2M2MzA5MzVlIiwidCI6Ijc5ODcxN2ExLTRhNDYtNDg1Yi04NmQ0LTZhNTM1NDJjNTZiMiIsImMiOjl9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
                                   </div>
                                   <div class="carousel-item large">
                                     <p data-t>Report.p3</p>
-                                    <iframe class="large" title="Report Section" src="https://app.powerbi.com/view?r=eyJrIjoiMmY1YTE5NzAtY2M4MS00OWJiLTk2NTItZGQzZWNlYWQzZTU3IiwidCI6Ijk2NmM1NmFkLTNmZjYtNDk3Yi04ZTNkLTkxZmE3OGJhZTRhNCIsImMiOjl9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+                                    <iframe title="ShopDemoReport" class="large" src="https://app.powerbi.com/view?r=eyJrIjoiNTM1OTE3MjktZjYyZS00ZDA3LTg5NTUtOTQyNDBlZmVkYmNjIiwidCI6Ijc5ODcxN2ExLTRhNDYtNDg1Yi04NmQ0LTZhNTM1NDJjNTZiMiIsImMiOjl9&pageName=ReportSectiona2e20166c317c24bf477" frameborder="0" allowFullScreen="true"></iframe>
                                   </div>
                                 </div>
                             
@@ -209,7 +205,6 @@
                                 <ul class="carousel-indicators m-3">
                                     <li data-target="#report-carousel" data-slide-to="0" class="active"></li>
                                     <li data-target="#report-carousel" data-slide-to="1"></li>
-                                    <li data-target="#report-carousel" data-slide-to="2"></li>
                                 </ul>
 
                             </div>
@@ -236,11 +231,6 @@
     <section class="container light-section">
 
         <div class="sub-section" id="Analysis">
-
-        
-
-            
-
             <div class="container-fluid p-0">
 
                 <h2 data-t>Analysis.h</h2>
@@ -249,7 +239,7 @@
                     <p class="col-12" data-t>Analysis.pAnalyticalReporting</p>
                     <p class="col-12" data-t>Analysis.pQuantitativeNQualitative</p>
                     <div class="col-12 col-sm-6">
-                        <p>Analysis.wWePerform</p>
+                        <p>Analysis.pWePerform</p>
                         <ul class="check-mark-list d-block mx-auto">
                             <li data-t>Analysis.wStatistical</li>
                             <li data-t>Analysis.wDiagnostic</li>
@@ -262,8 +252,16 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="sub-section" id="Cleaning">
+
+            <h2 data-t>Cleaning.h</h2>
+            <p data-t>Cleaning.p</p>
+            <img class="img-fluid" src="img/examples/cleaning.png">
 
         </div>
+
     </section>
 
     <section id="Solutions" class="bg-image fixed-bg text-white wrapper"
@@ -309,7 +307,11 @@
                                   </div>
                                   <div class="carousel-item large">
                                     <p data-t>Solutions.p2</p>
-                                    <img class="img-fluid" src="img/examples/solution1.png" ></img>
+                                    <img class="img-fluid" src="img/examples/solution2.png" ></img>
+                                  </div>
+                                  <div class="carousel-item large">
+                                    <p data-t>Solutions.p2</p>
+                                    <img class="img-fluid" src="img/examples/solution3.png" ></img>
                                   </div>
                                 </div>
                             
@@ -317,6 +319,7 @@
                                 <ul class="carousel-indicators m-3">
                                     <li data-target="#solutions-carousel" data-slide-to="0" class="active"></li>
                                     <li data-target="#solutions-carousel" data-slide-to="1"></li>
+                                    <li data-target="#solutions-carousel" data-slide-to="2"></li>
                                 </ul>
 
                             </div>
@@ -341,14 +344,6 @@
 	</section>
 
     <section class="container light-section">
-
-        <div class="sub-section" id="Cleaning">
-
-            <h2 data-t>Cleaning.h</h2>
-            <p data-t>Cleaning.p</p>
-            <img class="img-fluid" src="img/examples/cleaning.png">
-
-        </div>
 
         <div class="sub-section" id="Consultancy">
 
