@@ -189,6 +189,14 @@ h6 {
   margin-right: auto;
 }
 
+.check-mark-list {
+  list-style: none;
+}
+
+.check-mark-list li:before {
+  content: "✓   ";
+}
+
 .slider-container {
     text-align: center;
 }
