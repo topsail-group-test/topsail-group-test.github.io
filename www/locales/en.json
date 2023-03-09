@@ -17,6 +17,11 @@
     ,"Services": "Services"
     ,"About": "About"
     ,"Contacts": "Contacts"
+    ,"Visualization": "Visualization"
+    ,"Analysis": "Analysis"
+    ,"Solutions": "Solutions"
+    ,"Cleaning": "Cleaning"
+    ,"Consultancy": "Consultancy"
   }
 
   ,"Header": {
@@ -216,4 +221,27 @@
       }
     }
   }
+
+  ,"Visualization": {
+    "h":"Visualization"
+   ,"p": "BI tools that we currently use provide almost 500 certified customizable charts to depict your data in an easy-to-understand manner. Each view is interactive and allows you to slice your data by year / product type / department / whatever you in a single click."
+ }
+
+ ,"Report": {
+  "h":"Report Examples"
+ ,"p1": "Overal company report example 1"
+ ,"p2": "Overal company report example 2"
+ ,"p3": "Overal company report example 3"
+}
+
+,"Analysis": {
+  "h":"Data Analysis"
+ ,"t": "<p>An analytical report is a type of a business report that uses qualitative and quantitative company data to analyze and evaluate a business strategy or process, while empowering employees to make data-driven decisions based on evidence and analytics. While analytical reporting is based on statistics, historical data and can deliver predictive analysis of a specific issue, its usage is also spread in analyzing current data in a wide range of industries.</p><p>With our data scientists on board, you’ll enable both quantitative and qualitative data analysis to bring valuable insights to your team when and as they need it.</p>"
+ ,"wWePerform": "We perform:"
+ , "wStatistical": "Statistical Analysis "
+ , "wDiagnostic": "Diagnostic Analysis "
+ , "wPredictive": "Predictive Analysis "
+ , "wPrescriptive": "Prescriptive Analysis"
+}
+
 }
