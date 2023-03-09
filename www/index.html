@@ -35,6 +35,10 @@
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext"
         rel="stylesheet">
+            
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" />    
+
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
@@ -47,26 +51,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/site.webmanifest">
-    
-    <link rel="stylesheet" href="css/bootstrap-select.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" />
-
-    <!-- Accordion animation correction  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script>
-      $(function () {
-          $('.accordion').on('shown.bs.collapse', function (e) {
-              var offset = e.target.closest('.accordion-item').getBoundingClientRect();
-              if(offset) { 
-                  $('html,body').animate({
-                      scrollTop: offset.top + window.scrollY - 60
-                  }, 'fast'); 
-              }
-          }); 
-      });
-    </script>
-
-    
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-light navbar-custom fixed-top py-0">
         <!-- Text Logo - Use this if you don't have a graphic logo -->
@@ -136,16 +120,79 @@
                 <div class="col-12"><h2 class="h" data-t>BI.h</h2></div>
                 <div class="d-none d-sm-block col-sm-1 col-md-2 col-lg-3"></div>
                 <div class="col-12 col-sm-10 col-md-8 col-lg-6">
-                    <p class="text-justify" data-t>BI.p</p>
+                    <p class="p-large-justify" data-t>BI.p</p>
                 </div>
                 <div class="d-none d-sm-block col-sm-1 col-md-2 col-lg-3"></div>
             </div>
                 
         </div>
+          <div id="Benefits" class="sub-section">
+            <h2 class="h" data-t>Benefits.h</h2>
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <h3 data-t class="header" align="center">Benefits.hBenefit1</h3>
+                      <img src="img/benefits/benefit1.png" alt="Lights" style="width:100%">
+                      <div class="caption">
+                        <p data-t class="p-benefit p-large-justify">Benefits.pBenefit1</p>
+                      </div>
+                  </div> 
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h3 data-t class="header" align="center">Benefits.hBenefit2</h3>
+                        <img src="img/benefits/benefit2.png" alt="Lights" style="width:100%">
+                        <div class="caption">
+                          <p data-t class="p-benefit p-large-justify">Benefits.pBenefit2</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h3 data-t class="header" align="center">Benefits.hBenefit3</h3>
 
+                        <img src="img/benefits/benefit3.png" alt="Lights" style="width:100%">
+                        <div class="caption">
+                          <p data-t class="p-benefit p-large-justify">Benefits.pBenefit3</p>
+                        </div>
+                    </div> 
+                  </div>
+                  
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h3 data-t class="header" align="center">Benefits.hBenefit4</h3>
+
+                        <img src="img/benefits/benefit4.png" alt="Lights" style="width:100%">
+                        <div class="caption">
+                          <p data-t class="p-benefit p-large-justify">Benefits.pBenefit4</p>
+                        </div>
+                    </div> 
+                  </div>
+                  <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h3 data-t class="header" align="center">Benefits.hBenefit5</h3>
+
+                        <img src="img/benefits/benefit5.png" alt="Lights" style="width:100%">
+                        <div class="caption">
+                          <p data-t class="p-benefit p-large-justify">Benefits.pBenefit5</p>
+                        </div>
+                    </div> 
+                  </div>
+                  <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h3 data-t class="header" align="center">Benefits.hBenefit6</h3>
+                        <img src="img/benefits/benefit6.png" alt="Lights" style="width:100%">
+                        <div class="caption">
+                          <p data-t class="p-benefit p-large-justify">Benefits.pBenefit6</p>
+                        </div>
+                    </div> 
+                  </div>
+            </div>
         
         <div id="Slogans" class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-6">
                 <div class="text-left mx-auto">
                     <h2 data-t>Slogans.h</h2>
                     <ul>
@@ -156,7 +203,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-6">
                 <h2 data-t>Slogans.hAnalyticsTypes</h2>
                 <img data-attr-t data-attr-t-interpolate src-t="img/escalator/escalator-small-{{lang}}.png" src="img/escalator/escalator-small-en.png" class="d-block d-sm-none  d-md-block d-lg-none  img-fluid mx-auto" data-attr-t alt-t="Slogans.altEscalator">
                 <img data-attr-t data-attr-t-interpolate src-t="img/escalator/escalator-large-{{lang}}.png" src="img/escalator/escalator-large-en.png" class="d-none  d-sm-block d-md-none  d-lg-block img-fluid mx-auto" data-attr-t alt-t="Slogans.altEscalator">
@@ -169,7 +216,7 @@
         <div class="sub-section" id="Use">
 
         <h2 class="h" data-t>Use.h</h2>	
-                        <p class="text-justify" data-t>Use.p</p>
+                        <p class="p-large-justify" data-t>Use.p</p>
             <table class="table text-break">
 	    		<thead><tr><th scope="col" data-t>Use.thIssue</th><th class="d-none d-sm-table-cell" scope="col" data-t>Use.thReason</th><th scope="col" data-t>Use.thSolution</th></tr></thead>
 	    		<tbody>
@@ -183,70 +230,11 @@
 	    		</tbody>
 	    	</table>
         </div>
-
-        <div id="Benefits" class="sub-section">
-
-            <h2 class="h" data-t>Benefits.h</h2>
-
-            <div id="accordion" class="accordion">
-                <div class="accordion-item">
-                    <h3 class="accordion-header" id="headingOne">
-                      <button data-t class="accordion-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Benefits.hRevenue</button>
-                    </h3>
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="accordion-body">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-3 order-1 order-md-3">
-                                    <img class="img-figure mb-3" src="img/figures/benefit-revenue.jpg"></img>
-                                </div>
-                                <p class="col-12 col-md-9 order-2 text-justify" data-t>Benefits.pRevenue</p>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                    <h3 class="accordion-header" id="headingTwo">
-                      <button data-t class="accordion-button collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Benefits.hPlanning</button>
-                    </h3>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="accordion-body">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-3 order-1 order-md-3">
-                                    <img class="img-figure mb-3" src="img/figures/benefit-planning.png"></img>
-                                </div>
-                                <p class="col-12 col-md-9 order-2 text-justify" data-t>Benefits.pPlanning</p>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                    <h3 class="accordion-header" id="headingThree">
-                      <button data-t class="accordion-button collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Benefits.hConsolidation</button>
-                    </h3>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="accordion-body">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-3 order-1 order-md-3">
-                                    <img class="img-figure mb-3" src="img/figures/benefit-consolidation.png"></img>
-                                </div>
-                                <p class="col-12 col-md-9 order-2 text-justify" data-t>Benefits.pConsolidation</p>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
+      
     </section>
 
 
     <section id="Services" class="sub-section dark-section bg-image fixed-bg"
-			
 			style="background-image: url('img/bg/sphere.jpg');"
 		>
 		<div class="bg-dark-blue-shadow mx-auto rounded text-center" style="max-width: 450px;">
@@ -321,10 +309,8 @@
 	</section>
 
     <section class="container light-section">
-
         <div class="sub-section" id="Customers">
             <h2 data-t>Customers.h</h2>
-
             <!-- Image Slider -->
             <div class="slider-container d-sm-none">
                 <div class="swiper-container image-slider">
@@ -389,46 +375,46 @@
             
 			<div class="d-none d-sm-block container px-4">
 				<div class="row gap">
-					<div class="col-4">	<img src="img/customers/customer-logo-5.png" class="customer-logo" alt="SUNWEB GROUP">		        </div>
-					<div class="col-4">	<img src="img/customers/customer-logo-2.png" class="customer-logo" alt="PRIVA">				        </div>
-					<div class="col-4">	<img src="img/customers/customer-logo-7.png" class="customer-logo" alt="MANPOWER GROUP">	        </div>
+					<div class="col-4" align="center">	<img src="img/customers/customer-logo-5.png" class="customer-logo" alt="SUNWEB GROUP">		        </div>
+					<div class="col-4" align="center">	<img src="img/customers/customer-logo-2.png" class="customer-logo" alt="PRIVA">				        </div>
+					<div class="col-4" align="center">	<img src="img/customers/customer-logo-7.png" class="customer-logo" alt="MANPOWER GROUP">	        </div>
 
-					<div class="col-4">	<img src="img/customers/customer-logo-1.png" class="customer-logo" alt="DB+">				        </div>
-                    <div class="col-4">	<img src="img/customers/customer-logo-4.png" class="customer-logo" alt="TREVIAN">			        </div>
-                    <div class="col-4">	<img src="img/customers/customer-logo-8.png" class="customer-logo" alt="HOMEFASHION GROUP">	        </div>
+					<div class="col-4" align="center">	<img src="img/customers/customer-logo-1.png" class="customer-logo" alt="DB+">				        </div>
+                    <div class="col-4" align="center">	<img src="img/customers/customer-logo-4.png" class="customer-logo" alt="TREVIAN">			        </div>
+                    <div class="col-4" align="center">	<img src="img/customers/customer-logo-8.png" class="customer-logo" alt="HOMEFASHION GROUP">	        </div>
 
-					<div class="col-4">	<img src="img/customers/customer-logo-3.png" class="customer-logo" alt="LIFTINSTITUUT">		        </div>
-                    <div class="col-4">	<img src="img/customers/customer-logo-6.png" class="customer-logo" alt="UNLIMITED FOOTWEAR GROUP">	</div>
-					<div class="col-4">	<img src="img/customers/customer-logo-9.png" class="customer-logo" alt="HILLSTAR">		            </div>
+					<div class="col-4" align="center">	<img src="img/customers/customer-logo-3.png" class="customer-logo" alt="LIFTINSTITUUT">		        </div>
+                    <div class="col-4" align="center">	<img src="img/customers/customer-logo-6.png" class="customer-logo" alt="UNLIMITED FOOTWEAR GROUP">	</div>
+					<div class="col-4" align="center">	<img src="img/customers/customer-logo-9.png" class="customer-logo" alt="HILLSTAR">		            </div>
 				</div>
 			</div>
 
-        </div>
+    </div>
 
         <div class="sub-section" id="About">
             	
 			<div class="container">
                 <div class="row gap">
-                    <div class="col-12">
+                    <div class="col-6">
                         <h2 data-t>About.h</h2>
-			            <p data-t>About.p</p>
+			            <p class="p-large-justify" data-t>About.p</p>
                     </div>
-
+                    <div class="col-6" align="center" >
+                        <img src="img/logo/sail.png" class="img-fluid" style="max-width:60%;">
+                    </div>
+                   
                 </div>
 				<div class="row gap">
-					<div class="col-12 col-md-4">	
+					<div class="col-12 col-md-6">	
 						<div class="vstack">
 							<h2 data-t>Approach.h</h2>
-							<p class="text-justify" data-t>Approach.p</p>
+							<p class="p-large-justify" data-t>Approach.p</p>
 						</div>
 					</div>
-					<div class="col-12 col-md-4 d-flex">
-						<img src="img/logo/sail.png" class="mx-auto d-block align-self-center" style="max-width: 220px; width: 100%; height: auto;">
-					</div>
-					<div class="col-12 col-md-4">
+					<div class="col-12 col-md-6">
 						<div class="vstack">
 							<h2 data-t>NameMeaning.h</h2>
-							<p class="text-justify" data-t>NameMeaning.p</p>
+							<p class="p-large-justify" data-t>NameMeaning.p</p>
 						</div>
 					</div>
 
@@ -451,21 +437,6 @@
                 </div>
                 <!--end of row -->
             </div> <!-- end of container -->
-
-            <!-- 
-			<form id="myForm" method="post" action="form-to-email.php">
-				<div class="mb-3">
-				<input type="email" id="email" class="form-control" id="exampleFormControlInput1" placeholder="e-mail" style="max-width: 300px;">
-				</div>
-				<div class="mb-3">
-				<textarea id="message" class="form-control" id="exampleFormControlTextarea1" placeholder="message" rows="7"></textarea>
-				</div>
-				<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-				  <input type="submit" id="submit" value="Send" class="btn btn-outline-primary"/>
-				</div>
-			</form>
-			
-			-->
 
         </div>
         <!-- end of contact -->
@@ -494,13 +465,15 @@
 				<div class="col-12 col-md-4">
 					<h3 data-t>Footer.hMedia</h3>
                     <span class="fa-stack">
-                        <a href="https://www.linkedin.com/company/topsail-group">
+                        <a href="https://www.linkedin.com/company/topsail-group"
+                        target="_blank">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-linkedin-in fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
-                        <a href="https://www.facebook.com/TopSailGroup/">
+                        <a href="https://www.facebook.com/TopSailGroup/"
+                        target="_blank">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-facebook fa-stack-1x"></i>
                         </a>

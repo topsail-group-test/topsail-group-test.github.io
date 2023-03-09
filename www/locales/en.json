@@ -74,13 +74,21 @@
   }
   ,"Benefits": {
     "h":"How BI benefits companies?"
-    ,"hRevenue": "Expertise enhancement →&nbsp;Revenue&nbsp;growth"
-    ,"hPlanning": "Quick measures →&nbsp;Good&nbsp;planning"
-    ,"hConsolidation": "Easy sharing →&nbsp;Consolidation"
-    ,"pRevenue": "Business Intelligence makes employees more valuable assets by providing an integrated data model and easy-to-use interface. This saves time collecting data and allows for analysis to identify inefficiencies, bottlenecks, and opportunities. Valuable insights are then communicated to managers through clear reports, making employees experts in their business domain and providing management with a constant stream of insights."
-    ,"pPlanning": "Business Intelligence tools enable real-time monitoring of KPIs, allowing companies to dynamically respond to environmental changes. The intuitive interface and built-in data model relations facilitate quick updates with no specialized skills needed, boosting a company's ability to identify ongoing business trends."
-    ,"pConsolidation": "BI tools enable effective communication with quick dashboard reporting and visuals, accessible from any device. Performance enhancement techniques ensure responsive interfaces with large data sets, and centralized storage eases security implementation. BI reports reduce conflicts from poor communication and conflicting stakeholder expectations, accelerating the exchange of ideas."
-  }
+    ,"hBenefit1": "Data-driven business decisions"
+    ,"pBenefit1": "A strong BI strategy can deliver accurate data faster to business users to help them make better business decisions."
+    ,"hBenefit2": "Faster analysis and intuitive dashboards"
+    ,"pBenefit2": "BI improves reporting efficiency by condensing reports into dashboards that are easy for non-technical users to analyze."
+    ,"hBenefit3": "Increased competitive advantage"
+    ,"pBenefit3": "A sound BI strategy can help businesses monitor their changing market and anticipate customer needs."
+    ,"hBenefit4": "Improved customer experience"
+    ,"pBenefit4": "Ready access to data can help employees charged with customer satisfaction provide better experiences."
+    ,"hBenefit5": "Improved employee satisfaction"
+    ,"pBenefit5": "Providing business users access to data without having to contact analysts or IT can reduce friction, increase productivity, and facilitate faster results."
+    ,"hBenefit6": "Trusted and governed data"
+    ,"pBenefit6": "Modern BI platforms can combine internal databases with external data sources into a single data warehouse, allowing access the same data at one time."
+    
+   
+    }
   ,"Services": {
      "h":"Our services"
     ,"p": "If you need a BI solution designed specially for your company, check our services"
