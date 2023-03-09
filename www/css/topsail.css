@@ -18,6 +18,10 @@
     }
 }
 
+.navbar-custom {
+	height: 53px;
+}
+
 body {
 	padding-top: 53px;
 }
@@ -197,6 +201,14 @@ h6 {
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.check-mark-list {
+  list-style: none;
+}
+
+.check-mark-list li:before {
+  content: "✓   ";
 }
 
 .slider-container {
