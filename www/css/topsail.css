@@ -53,6 +53,10 @@ section {
   color: white;
 }
 
+.bg-white {
+  background-color: rgb(255, 255, 255);
+}
+
 section.dark-section, footer.dark-section {
   /*fix for fixed-top navbar navigation*/
   margin-top: 53px;
@@ -150,10 +154,36 @@ h6 {
   background-color: rgba(0, 0, 50, 0.6);
   position: absolute;
   top: 0;
-  left: 30%;
-  width: 70%;
+  left: 0;
+  width: 100%;
   height: 100%;
 }
+
+@media (min-width: 768px) {
+  .bg-dark-blue-shadow-right{
+    left: 15%;
+    width: 85%;
+  }
+  .right-shadow-content {
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-dark-blue-shadow-right{
+    left: 30%;
+    width: 70%;
+  }
+  .right-shadow-content {
+    margin-left: 35%;
+  }
+}
+
+
+
+
+
+
 
 .img-figure {
   max-width: 200px;
