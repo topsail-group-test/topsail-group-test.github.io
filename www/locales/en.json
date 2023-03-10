@@ -18,10 +18,13 @@
     ,"About": "About"
     ,"Contacts": "Contacts"
     ,"Visualization": "Visualization"
+    ,"Report": "Reports"
     ,"Analysis": "Analysis"
     ,"Solutions": "Solutions"
     ,"Cleaning": "Cleaning"
     ,"Consultancy": "Consultancy"
+    ,"Architecture": "Architecture"
+    ,"Scripts": "Scripts"
   }
 
   ,"Header": {
@@ -205,6 +208,12 @@
    ,"hChart2":"Chart 2"
   }
 
+  ,"Scripts": {
+    "h":"Script Examples"
+   ,"hTab1":"Script 1"
+   ,"hTab2":"Script 2"
+  }
+
  ,"Report": {
   "h":"Report Examples"
  ,"p1": "Report Example 1"
@@ -240,11 +249,21 @@
  ,"p": "Data quality is essential for applying machine learning models to solve business questions and training AI models. However, analytics and data science do not just make demands on data quality. They can also contribute a lot to improving the quality of your data. Missing value imputation and detection of complex outliers are perhaps the two best-known capabilities of analytics in data quality, but they are by no means the only ones."
 }
 
+,"Architecture": {
+  "h":"Architecture"
+ ,"hFigure1": "General Architecture"
+ ,"hFigure2": "Power BI Architecture"
+}
+
 ,"Consultancy": {
   "h":"Consultancy"
  ,"pStayInvolved": "Defining your needs is the first step into Business Intelligence. We encourage our customers to be involved into solution design and we maintain active communication during the whole developement process to remain aligned with your individual requirements."
  ,"pWeWillGuideYou": "Nevertheless, if you struggle to define your company's needs, our team of experts is ready to guide you through the process of business analysis. This will bring you a general picture to decide your further steps."
  ,"pContactUs": "You may contact us to get your first consultation for free."
+}
+
+,"Skills": {
+  "h":"Our Skills"
 }
 
 }
