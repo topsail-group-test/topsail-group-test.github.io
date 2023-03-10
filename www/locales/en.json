@@ -204,8 +204,8 @@
   ,"Visualization": {
     "h":"Visualization"
    ,"p": "BI tools that we currently use provide almost 500 certified customizable charts to depict your data in an easy-to-understand manner. Each view is interactive and allows you to slice your data by year / product type / department / whatever you in a single click."
-   ,"hChart1":"Chart 1"
-   ,"hChart2":"Chart 2"
+   ,"hChart1":"Usage"
+   ,"hChart2":"Design"
   }
 
   ,"Scripts": {
@@ -215,8 +215,8 @@
   }
 
  ,"Report": {
-  "h":"Report Examples"
- ,"p1": "Report Example 1"
+  "h":"Report Demos"
+ ,"p1": "Different Analytics types report demo"
  ,"p2": "Tabular Model Analysis"
  ,"p3": "Basket Analysis"
 }
