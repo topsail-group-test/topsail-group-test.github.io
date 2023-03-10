@@ -204,7 +204,7 @@
                 data-attr-t-interpolate
                 src-t="img/escalator/escalator-small-{{lang}}.png" 
                 src="img/escalator/escalator-small-en.png" 
-                class="d-block d-lg-none img-fluid" 
+                class="figure d-block d-lg-none img-fluid" 
                 alt-t="{{Slogans.altEscalator}}">
 
                 <img
@@ -212,7 +212,7 @@
                 data-attr-t data-attr-t-interpolate 
                 src-t="img/escalator/escalator-large-{{lang}}.png" 
                 src="img/escalator/escalator-large-en.png"
-                 class="d-none d-lg-block img-fluid" 
+                 class="figure d-none d-lg-block img-fluid" 
                  alt-t="{{Slogans.altEscalator}}">
             </div>
             
@@ -260,7 +260,7 @@
 		<div class="bg-dark-blue-shadow mx-auto rounded text-center" style="max-width: 450px;">
 			<h2 class="h" data-t>Services.h</h2>
 			<p data-t>Services.p</p>
-            <a href="services.html" class="btn btn-primary" role="button">See demos</a>
+            <a href="services.html" class="btn btn-outline-light" role="button">See demos</a>
 
 		</div>
         
@@ -531,7 +531,8 @@
     <script src="js/bootstrap-select.min.js"></script> <!-- Latest compiled and minified JavaScript -->
 
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    <script src="js/language-selector.js"></script> <!-- Custom scripts -->    
+    <script src="js/language-selector.js"></script> <!-- Custom scripts -->   
+    <script>$(document).ready(function(){$(".figure").click(function(){this.requestFullscreen()})});</script>  
 </body>
 
 </html>

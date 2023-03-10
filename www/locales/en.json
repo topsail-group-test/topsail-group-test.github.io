@@ -253,6 +253,8 @@
   "h":"Architecture"
  ,"hFigure1": "General Architecture"
  ,"hFigure2": "Power BI Architecture"
+ ,"hDWH": "Data warehouses (DWH)"
+ ,"pDWH": "The prime goal of DWH technology is to collect, integrate, clean and store data in consistent manner."
 }
 
 ,"Consultancy": {
