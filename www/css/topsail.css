@@ -1,20 +1,12 @@
 @import "bootstrap.min.css";
 
-@media (max-width: 400px) or ( (min-width: 575px) and (max-width: 1100px) ) {
+@media (max-width: 400px) or ( (min-width: 575px) and (max-width: 800px) ) {
     #logo-right {
         display: none;
     }
 }
 
-@media  (min-width: 575px) and (max-width: 800px) {
-    #logo-left {
-        display: none;
-    }
-}
-
-
-
-@media (max-width: 400px) or ( (min-width: 992px) and (max-width: 1300px) ) {
+@media (max-width: 400px) or ( (min-width: 992px) and (max-width: 1100px) ) {
   #logo-right-services {
       display: none;
   }
@@ -93,7 +85,7 @@ h1 {
 h2 {
 	font-weight: 600;
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 1.2rem;
     font-size: calc(1.325rem + .8vw);
 }
 
@@ -326,9 +318,15 @@ h6 {
         padding-left: 0;
         padding-right: 0;
     }
-
-
 }
+
+@media (max-width: 320px) {
+  #header-shadow {
+      width: 100%;
+  }
+}
+
+
 
 
 
