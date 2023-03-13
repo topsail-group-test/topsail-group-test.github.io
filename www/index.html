@@ -21,10 +21,9 @@
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="TopSail Group" /> <!-- website name -->
     <meta property="og:site" content="topsailgroup.eu" /> <!-- website link -->
-    <meta property="og:title" content="TopSail Group - BI Solutions" /> <!-- title shown in the actual shared post -->
-    <meta property="og:description"
-        content="We create the Business Intelligence solutions that maximize the use of customers' business potential." />
-    <!-- description shown in the actual shared post -->
+    <meta property="og:title" content="TopSail Group - Business Intelligence (BI) Solutions"> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="We create the Business Intelligence solutions that maximize the use of customers' business potential.">
+   <!-- description shown in the actual shared post -->
     <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="topsailgroup.eu" /> <!-- where do you want your post to link to -->
     <meta property="og:type" content="website" />
@@ -43,7 +42,6 @@
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/wanted.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0194320d92.js" crossorigin="anonymous"></script>
     <link href="css/topsail.css" rel="stylesheet">
     <!-- Favicon  -->
@@ -51,6 +49,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/site.webmanifest">
+    
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-light navbar-custom fixed-top py-0">
         <!-- Text Logo - Use this if you don't have a graphic logo -->
@@ -59,7 +60,6 @@
 
         <div id="navbar-brand hstack no-gutters mr-auto">
             <a id="logo-left" class="my-0" href="#Home"><img src="img/logo/logo-left.png" alt="TopSail Group"></a>
-            <a id="logo-middle" class="my-0" href="#Home"><img src="img/logo/logo-middle.png"></a>
             <a id="logo-right" class="my-0" href="#Home"><img src="img/logo/logo-right.png"></a>
         </div>
 
@@ -72,20 +72,20 @@
         <!-- end of mobile menu toggle button -->
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto bg-white">
 
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Home"       data-t>nav.Home</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Benefits" data-t>nav.Benefits</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Services" data-t>nav.Services</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#About" data-t>nav.About</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Contacts" data-t>nav.Contacts</a></li>
-                <li>
+                <!-- <li>
                     <select id="languageSelector" class="selectpicker" data-width="fit">
                           <option value="1" data-content="<span class='flag-icon flag-icon-gb'></span> en">eng</option>
                           <option value="2" data-content="<span class='flag-icon flag-icon-ru'></span> ru">rus</option>
                           <option value="3" data-content="<span class='flag-icon flag-icon-lv'></span> lv">lv</option>
                     </select>
-                </li>
+                </li>-->
             </ul>
             
     </nav> <!-- end of navbar -->
@@ -108,7 +108,16 @@
 
     <header class="header fixed-bg" style="background-image: url('img/bg/sphere.jpg');">
         <div class="container d-flex" style="min-height: calc(50vh - 28px);">
-		    <h1 style="display: inline-block;" class="h bg-black-shadow px-3 my-0 text-white d-flex align-items-center" data-t>Header.h</h1>
+		    <div class="bg-black-shadow px-3 my-0 text-white d-flex align-items-center">
+                <div>
+                    <h1 data-t>Header.h</h1>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-outline-light" href="services.html" role="button">See demos</a>
+                    </div> 
+                </div>
+            </div>
+            
+            
         </div>
     </header>
 
@@ -121,6 +130,7 @@
                 <div class="d-none d-sm-block col-sm-1 col-md-2 col-lg-3"></div>
                 <div class="col-12 col-sm-10 col-md-8 col-lg-6">
                     <p class="p-large-justify" data-t>BI.p</p>
+                    
                 </div>
                 <div class="d-none d-sm-block col-sm-1 col-md-2 col-lg-3"></div>
             </div>
@@ -203,7 +213,7 @@
                 data-attr-t-interpolate
                 src-t="img/escalator/escalator-small-{{lang}}.png" 
                 src="img/escalator/escalator-small-en.png" 
-                class="d-block d-lg-none img-fluid" 
+                class="figure d-block d-lg-none img-fluid" 
                 alt-t="{{Slogans.altEscalator}}">
 
                 <img
@@ -211,7 +221,7 @@
                 data-attr-t data-attr-t-interpolate 
                 src-t="img/escalator/escalator-large-{{lang}}.png" 
                 src="img/escalator/escalator-large-en.png"
-                 class="d-none d-lg-block img-fluid" 
+                 class="figure d-none d-lg-block img-fluid" 
                  alt-t="{{Slogans.altEscalator}}">
             </div>
             
@@ -259,11 +269,13 @@
 		<div class="bg-dark-blue-shadow mx-auto rounded text-center" style="max-width: 450px;">
 			<h2 class="h" data-t>Services.h</h2>
 			<p data-t>Services.p</p>
+            <a href="services.html" class="btn btn-outline-light" role="button">See demos</a>
+
 		</div>
         
-		<div class="container px-4">
+		<div class="container px-4 text-dark">
 		  <div class="row gap">
-			<div class="col-12 col-sm-6 col-md-4 bordered">
+			<div class="col-12 col-sm-6 col-md-4">
 				<div class="card h-100 w-100  ">
 									<img src="img/services/ico1.png" class="icon card-img-top">
 									<div class="card-body">
@@ -273,7 +285,7 @@
 									
 				</div>
 			</div>
-			<div class="col-12 col-sm-6 col-md-4 bordered">
+			<div class="col-12 col-sm-6 col-md-4">
 				<div class="card h-100 w-100 ">
 									<img src="img/services/ico2.png" class="icon card-img-top">
 									<div class="card-body">
@@ -284,7 +296,7 @@
 				</div>
 			</div>
 
-			<div class="col-12 col-sm-6 col-md-4 bordered">
+			<div class="col-12 col-sm-6 col-md-4">
 				<div class="card h-100 w-100 ">
 									<img src="img/services/ico3.png" class="icon card-img-top">
 									<div class="card-body">
@@ -294,7 +306,7 @@
 									
 				</div>
 			</div>
-			<div class="col-12 col-sm-6 col-md-4 bordered">
+			<div class="col-12 col-sm-6 col-md-4">
 				<div class="card h-100 w-100 ">
 									<img src="img/services/ico4.png" class="icon card-img-top">
 									<div class="card-body">
@@ -304,7 +316,7 @@
 									
 				</div>
 			</div>
-			<div class="col-12 col-sm-6 col-md-4 bordered">
+			<div class="col-12 col-sm-6 col-md-4">
 				<div class="card h-100 w-100 ">
 									<img src="img/services/ico5.png" class="icon card-img-top">
 									<div class="card-body">
@@ -314,7 +326,7 @@
 									
 				</div>
 			</div>
-			<div class="col-12 col-sm-6 col-md-4 bordered">
+			<div class="col-12 col-sm-6 col-md-4">
 				<div class="card h-100 w-100 ">
 									<img src="img/services/ico6.png" class="icon card-img-top">
 									<div class="card-body">
@@ -419,7 +431,7 @@
 			            <p class="p-large-justify" data-t>About.p</p>
                     </div>
                     <div class="col-md-6" align="center" >
-                        <img src="img/logo/sail.png" class="img-fluid" style="max-width:60%;">
+                        <img src="img/logo/sail.png" class="img-fluid thumbnail" style="max-width:70%;">
                     </div>
                    
                 </div>
@@ -528,7 +540,8 @@
     <script src="js/bootstrap-select.min.js"></script> <!-- Latest compiled and minified JavaScript -->
 
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    <script src="js/language-selector.js"></script> <!-- Custom scripts -->    
+    <script src="js/language-selector.js"></script> <!-- Custom scripts -->   
+    <script>$(document).ready(function(){$(".figure").click(function(){this.requestFullscreen()})});</script>  
 </body>
 
 </html>

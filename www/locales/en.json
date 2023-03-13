@@ -18,10 +18,13 @@
     ,"About": "About"
     ,"Contacts": "Contacts"
     ,"Visualization": "Visualization"
+    ,"Report": "Reports"
     ,"Analysis": "Analysis"
     ,"Solutions": "Solutions"
     ,"Cleaning": "Cleaning"
     ,"Consultancy": "Consultancy"
+    ,"Architecture": "Architecture"
+    ,"Scripts": "Scripts"
   }
 
   ,"Header": {
@@ -29,8 +32,8 @@
   }
 
   ,"BI": {
-     "h":"What is Business Intelligence?"
-    ,"p": "Business Intelligence (BI) is a set of IT tools and techniques used by medium and large companies to monitor their business processes. Once established, BI infrastructure serves for many years, helping to make informed decisions, build long-term strategy, minimize redundant expenses, increase management efficiency.<br><br><i>Having BI is like having eyes to navigate through uncertainty.</i>"
+     "h":"Business Intelligence Definition"
+    ,"p": "Business Intelligence (BI) is a set of IT tools and techniques that can be used for various purposes - to monitor business processes and KPIs, provide more insights, compare actuals and forecasts and even provide suggestions of business actions. Once established, BI infrastructure serves for <i>many years</i>, helping to make informed decisions, build long-term strategy, minimize redundant expenses, increase management efficiency."
   }
   ,"Slogans": {
     "h":"The flavours of Analytics"
@@ -39,39 +42,9 @@
     ,"pAnalyticalType3": "<b>Predictive analytics</b> aims to predict likely outcomes and make educated forecasts using historical data, using probabilities for predictions instead of simply interpreting existing facts."
     ,"pAnalyticalType4": "<b>Prescriptive analytics</b> uses data from various sources, including statistics, machine learning, and data mining, to identify possible future outcomes and show the best option. It provides actionable insights instead of raw data, enabling businesses to understand why certain outcomes will happen and predicting the effect of future decisions."
   }
-  ,"Use": {
-     "h":"When companies use Business Intelligence?"
-    ,"p": "Most often companies realize a need for BI encountering some of the common issues. BI helps to identify hidden root problems behind such issues and provides a set of corresponding solutions."
-    
-    ,"thIssue": "Common issue"
-    ,"tdICosts": "How to lower our production costs?"
-    ,"tdISpeed": "How to accelerate our business process?"
-    ,"tdIReliability": "Can we make our business process reliable?"
-    ,"tdIQuality": "How to increase our product quality?"
-    ,"tdICompetitors": "Why do customers prefer our competitors?"
-    ,"tdIGoals": "How can we reach our long-term goals?"
-    ,"tdISecurity": "How to improve our data security?"
 
-    ,"thReason": "Potential reason"
-    ,"tdRCosts": "Untracked or non-obvious expenses"
-    ,"tdRSpeed": "Bottlenecks"
-    ,"tdRReliability": "Breaking production / delivery chains"
-    ,"tdRQuality": "Poor internal communication"
-    ,"tdRCompetitors": "Lack of market comprehension"
-    ,"tdRGoals": "Inconsistent reactions to market changes"
-    ,"tdRSecurity": "Divergent policies at multiple sources"
-
-    ,"thSolution": "BI solution"
-    ,"tdSCosts": "Multidimensional data analysis"
-    ,"tdSSpeed": "Near to real-time business process tracking"
-    ,"tdSReliability": "Automated risk detection"
-    ,"tdSQuality": "Easy-to-made interactive visual reports"
-    ,"tdSCompetitors": "Multiple-source data integration"
-    ,"tdSGoals": "Trend analysis with time intelligence functions"
-    ,"tdSSecurity": "Centralized data storage and access control"
-  }
   ,"Benefits": {
-    "h":"How BI benefits companies?"
+    "h":"Business Intelligence Benefits"
     ,"hBenefit1": "Data-driven business decisions"
     ,"pBenefit1": "A strong BI strategy can deliver accurate data faster to business users to help them make better business decisions."
     ,"hBenefit2": "Faster analysis and intuitive dashboards"
@@ -104,18 +77,18 @@
     ,"pVisualization": "Let your data<br>talk to you"
   }
   ,"Customers": {
-     "h":"Who trusts us?"
+     "h":"Our customers"
   }
   ,"About": {
-     "h":"Who are we?"
+     "h":"Who are we"
     ,"p": "TopSail Group is small BI consultancy company with a big attitude. Our customers are large international companies, that operate mostly on the European market. Our goal is to create the Business Intelligence solutions that maximize the use of customers' business potential.We have a team of skilled, certified and highly motivated professionals, with \"can do\" attitude. Our main goal is to help our customers in their constant success."
   }
   ,"Approach": {
-     "h":"How do we work?"
+     "h":"The way we work"
     ,"p": "In Business Intelligence, the action is as much important as reaction. Therefore, we not only supply BI solutions. We ask. We challenge. We prototype. We ensure quality and high standards."
   }
   ,"NameMeaning": {
-     "h":"Why TopSail?"
+     "h":"Fun fact"
     ,"p": "It has always been important to utilize every momentum to ensure you can go faster, and stay ahead. The \"topsail\" is a small sail on the top of the mast, that helps even the biggest ships gain extra speed."
   }
   ,"Contacts": {
@@ -231,23 +204,68 @@
   ,"Visualization": {
     "h":"Visualization"
    ,"p": "BI tools that we currently use provide almost 500 certified customizable charts to depict your data in an easy-to-understand manner. Each view is interactive and allows you to slice your data by year / product type / department / whatever you in a single click."
- }
+   ,"hChart1":"Usage"
+   ,"hChart2":"Design"
+  }
+
+  ,"Scripts": {
+    "h":"Script Examples"
+   ,"hTab1":"Script 1"
+   ,"hTab2":"Script 2"
+  }
 
  ,"Report": {
-  "h":"Report Examples"
- ,"p1": "Overal company report example 1"
- ,"p2": "Overal company report example 2"
- ,"p3": "Overal company report example 3"
+  "h":"Report Demos"
+ ,"p1": "Different Analytics types report demo"
+ ,"p2": "Tabular Model Analysis"
+ ,"p3": "Basket Analysis"
 }
 
 ,"Analysis": {
   "h":"Data Analysis"
- ,"t": "<p>An analytical report is a type of a business report that uses qualitative and quantitative company data to analyze and evaluate a business strategy or process, while empowering employees to make data-driven decisions based on evidence and analytics. While analytical reporting is based on statistics, historical data and can deliver predictive analysis of a specific issue, its usage is also spread in analyzing current data in a wide range of industries.</p><p>With our data scientists on board, you’ll enable both quantitative and qualitative data analysis to bring valuable insights to your team when and as they need it.</p>"
- ,"wWePerform": "We perform:"
- , "wStatistical": "Statistical Analysis "
- , "wDiagnostic": "Diagnostic Analysis "
- , "wPredictive": "Predictive Analysis "
- , "wPrescriptive": "Prescriptive Analysis"
+ ,"pAnalyticalReporting": "An analytical report is a type of a business report that uses qualitative and quantitative company data to analyze and evaluate a business strategy or process, while empowering employees to make data-driven decisions based on evidence and analytics. While analytical reporting is based on statistics, historical data and can deliver predictive analysis of a specific issue, its usage is also spread in analyzing current data in a wide range of industries."
+ ,"pQuantitativeNQualitative": "With our data scientists on board, you’ll enable both quantitative and qualitative data analysis to bring valuable insights to your team when and as they need it."
+ ,"pWePerform": "We perform:"
+ ,"wStatistical": "Statistical Analysis "
+ ,"wDiagnostic": "Diagnostic Analysis "
+ ,"wPredictive": "Predictive Analysis "
+ ,"wPrescriptive": "Prescriptive Analysis"
+}
+
+,"Solutions": {
+  "h":"Technical Solutions"
+ ,"p": "We Create, Manage and/or Support"
+ ,"wWarehouse":"Data warehouse (DWH)"
+ ,"wDataManagement":"Master data management (MDM)"
+ ,"wPipelines":"ETL/ELT (Extract, Transform, Load data) piplines"
+ ,"wIntegration":"Data integration"
+ ,"p1": "Google Analytics"
+ ,"p2": "SSIS pipeline"
+ ,"p3": "ETL: Infromatica mapping"
+}
+
+,"Cleaning": {
+  "h":"Data Cleaning"
+ ,"p": "Data quality is essential for applying machine learning models to solve business questions and training AI models. However, analytics and data science do not just make demands on data quality. They can also contribute a lot to improving the quality of your data. Missing value imputation and detection of complex outliers are perhaps the two best-known capabilities of analytics in data quality, but they are by no means the only ones."
+}
+
+,"Architecture": {
+  "h":"Architecture"
+ ,"hFigure1": "General Architecture"
+ ,"hFigure2": "Power BI Architecture"
+ ,"hDWH": "Data warehouses (DWH)"
+ ,"pDWH": "The prime goal of DWH technology is to collect, integrate, clean and store data in consistent manner."
+}
+
+,"Consultancy": {
+  "h":"Consultancy"
+ ,"pStayInvolved": "Defining your needs is the first step into Business Intelligence. We encourage our customers to be involved into solution design and we maintain active communication during the whole developement process to remain aligned with your individual requirements."
+ ,"pWeWillGuideYou": "Nevertheless, if you struggle to define your company's needs, our team of experts is ready to guide you through the process of business analysis. This will bring you a general picture to decide your further steps."
+ ,"pContactUs": "You may contact us to get your first consultation for free."
+}
+
+,"Skills": {
+  "h":"Our Skills"
 }
 
 }
