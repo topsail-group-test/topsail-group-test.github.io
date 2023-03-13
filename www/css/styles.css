@@ -152,14 +152,14 @@ body, p {
 .indent {
 	padding-left: 1.25rem;
 }
-
+/* 
 a {
-	text-decoration: underline;
-}
+	text-decoration: underline; 
+}*/
 
 a:hover {
 	color: white;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 a.turquoise {
