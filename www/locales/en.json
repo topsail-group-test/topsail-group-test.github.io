@@ -121,7 +121,7 @@
     "Contact": "Please send your CV to",
     "jobs": {
       "job1": {
-        "Title": "Senior BI Developer/Analysts",
+        "Title": "Senior BI Developer/Analyst",
         "Desc": "You are experienced, high skilled professional with good background in working with Analytical Applications, such as SSRS, SSAS, Power BI, Oracle BI. You are able to understand and implement complex analytical solutions – this includes ability to understand design of enterprise level architecture, think ahead for the possible extension of it and be able to spot possible points of improvement. Your level of technical skills enables you to see behind the lines of data. You have a will to learn, to be creative and to grow - this is what we expect.",
         "More": {
           "Expirience": {
@@ -140,7 +140,7 @@
         }
       },
       "job2": {
-        "Title": "Middle BI Developer/Analysts",
+        "Title": "Middle BI Developer/Analyst",
         "Desc": "The primary role of the BI developer is to take the design and technical specifications and develop effective and high quality technical solutions that meet the business requirements. The technical domain of the BI Developer includes logical and physical data modeling, data delivery best practices, tools and technologies, security in the data delivery environment, data delivery (application) development, performance tuning, and administration.",
         "More": {
           "Expirience": {
@@ -211,7 +211,7 @@
 
   ,"Scripts": {
     "h":"Script Examples"
-   ,"hTab1":"Script 1"
+   ,"hTab1":"Parse retailer items with python"
    ,"hTab2":"Script 2"
   }
 
@@ -252,8 +252,9 @@
 
 ,"Architecture": {
   "h":"Architecture"
- ,"hFigure1": "General Architecture"
+ ,"hFigure1": "Azure Data Warehouse"
  ,"hFigure2": "Power BI Architecture"
+ ,"hFigure3": "Synapse-based design"
  ,"hDWH": "Data warehouses (DWH)"
  ,"pDWH": "The prime goal of DWH technology is to collect, integrate, clean and store data in consistent manner."
 }
