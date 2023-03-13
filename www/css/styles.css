@@ -154,12 +154,11 @@ body, p {
 }
 
 a {
-	color: #626262;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #626262;
+	color: white;
 	text-decoration: underline;
 }
 
@@ -692,8 +691,8 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-.navbar-custom .nav-item .nav-link:hover,
-.navbar-custom .nav-item .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
 	color: #4889E8;
 }
 
@@ -1601,13 +1600,13 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-		color: #fff;
+		color: #393939;
 		opacity: 0.8;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #fff;
+		color: #4889E8;
 		opacity: 1;
 	}
 
