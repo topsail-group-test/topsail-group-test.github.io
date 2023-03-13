@@ -52,16 +52,16 @@
 	var $report_demo_2 = document.getElementById('report_demo_2')
 	var $report_demo_3 = document.getElementById('report_demo_3')
 
-	$("#report_demo_control_next").on("click", function(event) {
+	var $upd_reports = function(event) {
 		$report_demo_1.src = $report_demo_1.src;
 		$report_demo_2.src = $report_demo_2.src;
 		$report_demo_3.src = $report_demo_3.src;
-		});
-	$("#report_demo_control_prev").on("click", function(event) {
-		$report_demo_1.src = $report_demo_1.src;
-		$report_demo_2.src = $report_demo_2.src;
-		$report_demo_3.src = $report_demo_3.src;
-		});
+		}
+	$("#report_demo_control_next").on("click", $upd_reports);
+	$("#report_demo_control_prev").on("click", $upd_reports);
+	$("#report_demo_control_li1").on("click", $upd_reports);
+	$("#report_demo_control_li2").on("click", $upd_reports);
+	$("#report_demo_control_li3").on("click", $upd_reports);
     /* Image Slider - Swiper */
     var imageSlider = new Swiper('.image-slider', {
         autoplay: {
