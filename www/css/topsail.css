@@ -85,7 +85,7 @@ h1 {
 h2 {
 	font-weight: 600;
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 1.2rem;
     font-size: calc(1.325rem + .8vw);
 }
 
