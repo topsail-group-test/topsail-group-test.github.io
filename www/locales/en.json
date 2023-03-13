@@ -63,6 +63,7 @@
   ,"Services": {
      "h":"Our services"
     ,"p": "If you need a BI solution designed specially for your company, check our services"
+    ,"wDemos": "See demos"
     ,"hDevelopement": "Developement"
     ,"pDevelopement": "Create new or improve<br>what you have"
     ,"hConsultancy": "Consultancy"
@@ -217,8 +218,8 @@
  ,"Report": {
   "h":"Report Demos"
  ,"p1": "Different Analytics types report demo"
- ,"p2": "Tabular Model Analysis"
- ,"p3": "Basket Analysis"
+ ,"p2": "Basket Analysis"
+ ,"p3": "Tabular Model Analysis"
 }
 
 ,"Analysis": {
