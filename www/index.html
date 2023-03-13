@@ -79,13 +79,13 @@
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Services" data-t>nav.Services</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#About" data-t>nav.About</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#Contacts" data-t>nav.Contacts</a></li>
-                <li>
+                <!-- <li>
                     <select id="languageSelector" class="selectpicker" data-width="fit">
                           <option value="1" data-content="<span class='flag-icon flag-icon-gb'></span> en">eng</option>
                           <option value="2" data-content="<span class='flag-icon flag-icon-ru'></span> ru">rus</option>
                           <option value="3" data-content="<span class='flag-icon flag-icon-lv'></span> lv">lv</option>
                     </select>
-                </li>
+                </li>-->
             </ul>
             
     </nav> <!-- end of navbar -->
@@ -108,7 +108,16 @@
 
     <header class="header fixed-bg" style="background-image: url('img/bg/sphere.jpg');">
         <div class="container d-flex" style="min-height: calc(50vh - 28px);">
-		    <h1 style="display: inline-block;" class="h bg-black-shadow px-3 my-0 text-white d-flex align-items-center" data-t>Header.h</h1>
+		    <div class="bg-black-shadow px-3 my-0 text-white d-flex align-items-center">
+                <div>
+                    <h1 data-t>Header.h</h1>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-outline-light" href="services.html" role="button">See demos</a>
+                    </div> 
+                </div>
+            </div>
+            
+            
         </div>
     </header>
 
