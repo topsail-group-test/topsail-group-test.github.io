@@ -318,13 +318,15 @@ h6 {
         padding-left: 0;
         padding-right: 0;
     }
-    
-    header .bg-black-shadow {
-      width: 100%;
-    }
-
-
 }
+
+@media (max-width: 320px) {
+  #header-shadow {
+      width: 100%;
+  }
+}
+
+
 
 
 
