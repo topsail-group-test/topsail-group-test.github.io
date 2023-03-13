@@ -361,10 +361,6 @@ th {
 }
 
 
-.carousel-indicators {
-    position: static;
-}
-
 .carousel-item {
   position: relative;
   height: 100%;
@@ -392,6 +388,12 @@ th {
       transition: none;
     }
   }
+ 
+  .carousel-indicators {
+    position: relative !important;
+    bottom: 20px !important;
+  }
+
   .accordion-button:not(.collapsed) {
     color: #0c63e4;
     background-color: #e7f1ff;
